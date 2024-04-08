@@ -41,7 +41,7 @@ function App() {
     setLoading(false);
     }catch(e){
       setApiError(e.message);
-      alert("에러메시지"+apiError);
+      alert("에러메시지 "+apiError);
       setLoading(false);
     }
 
@@ -59,7 +59,7 @@ function App() {
     setLoading(false);
     }catch(e){
       setApiError(e.message);
-      alert("에러메시지"+apiError);
+      alert("에러메시지 "+apiError);
       setLoading(false);
     }
   }
